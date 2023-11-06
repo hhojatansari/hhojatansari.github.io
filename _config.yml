@@ -1,0 +1,43 @@
+# this is only for search engines, it does not appear in the home
+# as long as the json variables name and description are provided
+title: Hosein Hojat Ansari
+description: This is Hosien Hojat Ansari's personal website!
+baseurl: ""
+url: https://hhojatansari.ir
+
+# this information is shown on the homepage, all fields are optional and
+# can be declared either as a single string or as a string array/hash
+json:
+  name: Hosein Hojat Ansari
+  description:
+    - A passenger on earth
+    - who is going his own way 
+    - and discovering the world! 
+  cv: assets/cv.pdf
+  address:
+    - Iran, Guilan, Lahijan
+  contact:
+    email: hhojatansari@gmail.com
+    phone: +98 911 648 2390
+    office: hara [dot] ai
+  profiles:
+    linkedin: https://www.linkedin.com/in/hhojatansari
+    github: https://github.com/hhojatansari
+    twitter: https://twitter.com/hhojatansari
+    facebook: https://www.facebook.com/hhojatansari
+
+exclude:
+  - LICENSE
+  - README.md
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
+sass:
+  sass_dir: _sass
+  style: compressed
+  sourcemap: never
